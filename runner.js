@@ -57,7 +57,7 @@ class Obstacle {
 }
 
 let obstacles = [];
-let obstacleSpeed = 7;  // Start speed
+let obstacleSpeed = 12;  // Start speed
 
 function spawnObstacle() {
     if (obstacleTimer > obstacleDelay) {
