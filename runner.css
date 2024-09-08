@@ -1,0 +1,33 @@
+#gameCanvas {
+    margin: 0 auto;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: #a6c9fd;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+}
+canvas {
+    background-color: #fff;
+    border: 2px solid #000;
+}
+#score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    font-size: 30px;
+    margin-top: 10px;
+}
+#gameOverText {
+    color: red;
+    display: flex;
+    text-align: center;
+    
+    font-size: 22px;
+    margin-top: 10px;
+}
